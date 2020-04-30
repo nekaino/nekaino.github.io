@@ -19,12 +19,12 @@ a {
   display: -webkit-inline-flex;
   display: -ms-inline-flex;
   display: inline-flex;
+  transition-duration: 1s;
 }
 a:hover {
   background: linear-gradient(90deg, #6B0034, #00696B);
   border-radius: 7px;
   height: 50px;
-  animation: 3s;
 }
 
 img {
