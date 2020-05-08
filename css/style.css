@@ -12,43 +12,32 @@ body {
   background-image: url(../dark-grey-terrazzo.png);
 }
 
-a {
-  background-color: #E6E6E6;
-  color: green;
-  border-radius: 7px;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flex;
-  display: inline-flex;
+.conteiner {
+  padding: 5px;
+  min-width: 540px;
+  max-width: 920px;
+  margin: 100px auto;
+  background-color: #3f3f3f;
+  border-radius: 20px;
+  border: solid 5px #fff;
 }
-a:hover {
-  background: linear-gradient(90deg, #6B0034, #00696B);
-  border-radius: 7px;
-  height: 50px;
-  animation: 3s;
-}
-
-img {
-  width: 40px;
-  height: 40px;
-}
-
-header h1 {
+.conteiner header h1 {
   display: inline-flex;
   margin: 0;
   padding: 0 40px;
 }
-header ul {
+.conteiner header ul {
   display: inline-flex;
   margin: 0;
   padding: 0;
   bottom: 5px;
   position: relative;
 }
-header ul li {
+.conteiner header ul li {
   margin: 0px 15px;
   display: flex;
 }
-header ul li:not(:first-of-type)::before {
+.conteiner header ul li:not(:first-of-type)::before {
   content: "";
   display: inline-flex;
   position: relative;
@@ -59,31 +48,40 @@ header ul li:not(:first-of-type)::before {
   background-color: #53B1C2;
   border-radius: 5px;
 }
-
-.conteiner {
-  min-width: 540px;
-  max-width: 860px;
-  margin: 100px auto;
-  background-color: #3f3f3f;
-  border-radius: 20px;
-  height: 500px;
-}
-
-section {
+.conteiner section {
+  display: flex;
   background-color: #3f3f3f;
 }
-section ul {
+.conteiner section ul {
   padding: 0;
   margin: 0;
   width: 410px;
 }
-section ul li {
+.conteiner section ul a {
+  background-color: #E6E6E6;
+  color: green;
+  border-radius: 7px;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flex;
+  display: inline-flex;
+  transition-duration: 0.7s;
+}
+.conteiner section ul a:hover {
+  background: linear-gradient(90deg, #6B0034, #00696B);
+  border-radius: 7px;
+  height: 50px;
+}
+.conteiner section ul a li {
   display: flex;
   padding: 5px;
   border-radius: 10px;
   width: 400px;
 }
-section ul li p {
+.conteiner section ul a li img {
+  width: 40px;
+  height: 40px;
+}
+.conteiner section ul a li p {
   margin: 0;
   padding-left: 10px;
   display: flex;
