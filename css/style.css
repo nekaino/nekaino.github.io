@@ -48,16 +48,16 @@ body {
   background-color: #53B1C2;
   border-radius: 5px;
 }
-.conteiner section {
+.conteiner .links {
   display: flex;
   background-color: #3f3f3f;
 }
-.conteiner section ul {
+.conteiner .links ul {
   padding: 0;
   margin: 0;
   width: 410px;
 }
-.conteiner section ul a {
+.conteiner .links ul a {
   background-color: #E6E6E6;
   color: green;
   border-radius: 7px;
@@ -66,22 +66,22 @@ body {
   display: inline-flex;
   transition-duration: 0.7s;
 }
-.conteiner section ul a:hover {
+.conteiner .links ul a:hover {
   background: linear-gradient(90deg, #6B0034, #00696B);
   border-radius: 7px;
   height: 50px;
 }
-.conteiner section ul a li {
+.conteiner .links ul a li {
   display: flex;
   padding: 5px;
   border-radius: 10px;
   width: 400px;
 }
-.conteiner section ul a li img {
+.conteiner .links ul a li img {
   width: 40px;
   height: 40px;
 }
-.conteiner section ul a li p {
+.conteiner .links ul a li p {
   margin: 0;
   padding-left: 10px;
   display: flex;
