@@ -11,7 +11,7 @@
    height="48"
    version="1.1"
    id="svg4"
-   sodipodi:docname="Freelancer.svg"
+   sodipodi:docname="freelancer.svg"
    inkscape:version="0.92.3 (2405546, 2018-03-11)">
   <metadata
      id="metadata10">
@@ -35,8 +35,8 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
+     inkscape:window-width="1600"
+     inkscape:window-height="840"
      id="namedview6"
      showgrid="false"
      inkscape:zoom="4.9166667"
@@ -44,11 +44,11 @@
      inkscape:cy="24"
      inkscape:window-x="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg4" />
   <path
      d="M 28.518299,6.6919322 31.796526,11.327171 48.384237,6.6919322 H 28.518299 M 11.284194,42.779068 20.2574,33.936261 14.857287,28.094173 11.284194,42.779068 M 27.160755,6.6919322 22.364253,11.05065 30.429731,11.355291 27.160755,6.6919322 m -18.6448417,0 1.7229477,3.5596198 9.49356,0.595222 L 8.5159133,6.6919322 M 13.598032,25.145009 20.61124,11.956373 0.24576271,10.846774 13.598032,25.145009 m 0.816377,0.83542 6.625833,7.173137 7.306919,-7.220004 2.266428,-13.448753 -8.903825,-0.458134 -7.296512,13.953754"
      id="path2"
      inkscape:connector-curvature="0"
-     style="fill:#000000;stroke-width:1.16399431" />
+     style="fill:#097eeb;stroke-width:1.16399431;fill-opacity:1" />
 </svg>

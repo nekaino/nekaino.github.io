@@ -1,3 +1,29 @@
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track-piece {
+  background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb:vertical {
+  height: 10px;
+  background: #272c35;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #097eeb;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  width: 10px;
+  background: #272c35;
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover {
+  background: #097eeb;
+}
+
 * {
   box-sizing: border-box;
   list-style-type: none;
@@ -17,7 +43,7 @@ body {
   min-width: 540px;
   max-width: 920px;
   margin: 100px auto;
-  background-color: #3f3f3f;
+  background-color: #000;
   border-radius: 20px;
   border: solid 5px #fff;
 }
@@ -36,6 +62,7 @@ body {
 .conteiner header ul li {
   margin: 0px 15px;
   display: flex;
+  font-weight: 600;
 }
 .conteiner header ul li:not(:first-of-type)::before {
   content: "";
@@ -45,12 +72,12 @@ body {
   right: 15px;
   width: 20px;
   height: 20px;
-  background-color: #53B1C2;
+  background-color: #097eeb;
   border-radius: 5px;
 }
 .conteiner .links {
-  display: flex;
-  background-color: #3f3f3f;
+  display: inline-flex;
+  background-color: #000;
 }
 .conteiner .links ul {
   padding: 0;
@@ -58,18 +85,18 @@ body {
   width: 410px;
 }
 .conteiner .links ul a {
-  background-color: #E6E6E6;
-  color: green;
+  animation: animateLeft 1.4s linear infinite paused;
+  background-color: #fff;
+  color: #097eeb;
   border-radius: 7px;
+  margin: 3px;
   display: -webkit-inline-flex;
   display: -ms-inline-flex;
   display: inline-flex;
-  transition-duration: 0.7s;
 }
 .conteiner .links ul a:hover {
-  background: linear-gradient(90deg, #6B0034, #00696B);
-  border-radius: 7px;
-  height: 50px;
+  animation-play-state: running;
+  background: linear-gradient(90deg, #fff 0%, #097eeb 5%, #097eeb 35%, #fff 40%);
 }
 .conteiner .links ul a li {
   display: flex;
@@ -86,4 +113,21 @@ body {
   padding-left: 10px;
   display: flex;
   align-items: center;
+}
+.conteiner .skills {
+  display: inline-grid;
+  width: 54%;
+  vertical-align: top;
+  max-height: 336px;
+  overflow: auto;
+}
+.conteiner .skills p {
+  margin: 0;
+  margin-top: 16px;
+}
+
+@keyframes animateLeft {
+  100% {
+    background-position: 400px 0;
+  }
 }
