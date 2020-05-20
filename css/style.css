@@ -116,7 +116,7 @@ body {
 }
 .conteiner .skills {
   display: inline-grid;
-  width: 54%;
+  width: 52%;
   vertical-align: top;
   max-height: 336px;
   overflow: auto;
